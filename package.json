@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-express-template-engine",
+  "version": "1.0.0",
+  "description": "A repository to demonstrate how to use Express and Template Engines in NodeJS to create a web server capable of serving dynamic content.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevengreens10/NodeJS-Express-Template-Engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevengreens10/NodeJS-Express-Template-Engine/issues"
+  },
+  "homepage": "https://github.com/stevengreens10/NodeJS-Express-Template-Engine#readme"
+}
