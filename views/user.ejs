@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Users</title>
+        <link rel="stylesheet" href="/css/bootstrap.css"/>
+        <link rel="stylesheet" href="/css/style.css"/>
+    </head>
+
+    <body>
+        <% include partials/nav.ejs %>
+        <center>
+            <form method="POST" action="/users">
+                <input type="text" name="username" placeholder="Username"/>
+                <input type="password" name="password" placeholder="Password"/>
+                <button type="submit">Add User</button>
+            </form>
+            <% if(users.length > 0){ %>
+                <table>
+                    <tr>
+                        <th>Username</th>
+                        <th>Password</th>
+                    </tr>
+                    <% for(var i = 0; i < users.length; i++) { %>
+                        <tr>
+                            <td><%= users[i].username %></td>
+                            <td><%= users[i].password %></td>
+                        </tr>
+                    <% } %>
+                </table>
+            <% } %>
+        </center>
+    </body>
+</html>
