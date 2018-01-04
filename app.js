@@ -7,6 +7,7 @@ var mongoose = require('mongoose')
 
 var app = express()
 
+//mongodb://<dbuser>:<dbpassword>@blahblah
 mongoose.connect('mongodb://root:password@ds239587.mlab.com:39587/nodedigitaldb')
 
 // Sets the port that the server will run on
