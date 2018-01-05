@@ -7,6 +7,7 @@ var mongoose = require('mongoose')
 
 var app = express()
 
+// Mongoose connects to the specified mongodb database
 //mongodb://<dbuser>:<dbpassword>@blahblah
 mongoose.connect('mongodb://root:password@ds239587.mlab.com:39587/nodedigitaldb')
 

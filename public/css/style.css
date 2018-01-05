@@ -13,3 +13,7 @@ a {
     font-size: 20px;
     padding: 10px;
 }
+
+.user-table tr:hover td {
+    text-decoration: line-through;
+}

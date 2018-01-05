@@ -8,16 +8,18 @@
     <body>
         <% include partials/nav.ejs %>
         <br/>
-        <center>
-            <form action="/form" method="POST">
-                <label>Name</label>
-                <input type="text" name="name" placeholder="Name"/>
-                <br/>
-                <label>E-mail</label>
-                <input type="email" name="email" placeholder="E-mail"/>
-                <br/>
-                <button type="submit">Submit</button>
-            </form>
-        </center>
+            <div class="container">
+                <form action="/form" method="POST">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input class="form-control" type="text" name="name" placeholder="Name"/>
+                        <br/>
+                        <label>E-mail</label>
+                        <input class="form-control" type="email" name="email" placeholder="E-mail"/>
+                        <br/>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
     </body>
 </html>
